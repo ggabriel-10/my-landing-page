@@ -42,13 +42,16 @@ button{
   color: white;
   border: none;
   border-radius: 20px;
-  cursor: pointer;  
+  cursor: pointer;
+
 }
 
 .App-section{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;  
 }
 
 ul ol{
