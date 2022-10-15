@@ -11,7 +11,7 @@ function App() {
             <section className="App-section">
               <Button link="https://github.com/ggabriel-10" label="Github"/>              
               <Button link="https://www.linkedin.com/in/giovanni-medeiros-382806192/" label="LinkedIn"/>            
-              <Button link="maito:ggabriel.medeiros@hotmail.com" label="E-mail"/>
+              <Button link="mailto:ggabriel.medeiros@hotmail.com" label="E-mail"/>
             </section>
           </div>
 
