@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+.App-fundo{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  height: 60%;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+button{
+  background-color: rgb(116, 116, 116);
+  height: 50px;
+  width: 120px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;  
+}
+
+.App-section{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+ul ol{
+  list-style:none;
+  flex-direction: row;
+}
+
+body{
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-dados-digitais-de-numeros-de-codigo-binario-futurista_1017-25334.jpg?w=740&t=st=1665843001~exp=1665843601~hmac=95a55f219880cf726a6053f377eefa279dbe244b2c6138f6c9c999b008df40fe");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 30% 45%;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
