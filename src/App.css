@@ -46,6 +46,10 @@ button{
   margin-bottom: 10px;
 
 }
+button:hover {
+  background-color: rgb(167, 167, 167);
+  color:white; 
+}
 
 .App-section{
   width: 100%;
